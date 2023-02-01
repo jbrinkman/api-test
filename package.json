@@ -16,11 +16,12 @@
     "build:only": "tsc && npm run copyfiles",
     "copyfiles": "copyfiles -u 1 src/**/*.* dist/",
     "clean": "rimraf dist || true",
-    "clean:all": "npm run clean && (rimraf node_modules || true)"
+    "clean:all": "npm run clean && (rimraf node_modules || true)",
+    "test": "echo \"Warn: no tests specified\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jbrinkman/api-test.git"
+    "url": "https://github.com/jbrinkman/api-test.git"
   },
   "author": "Joe Brinkman",
   "license": "MIT",
