@@ -1,0 +1,25 @@
+[
+  {
+    "name": "getResourceList",
+    "method": "get",
+    "path": "/unknown"
+  },
+  {
+    "name": "getUserList",
+    "method": "get",
+    "path": "/users?page=${data.page}",
+    "data": [{ "page": 1 }]
+  },
+  {
+    "name": "getSingleUser",
+    "method": "get",
+    "path": "/users/${data.userId}",
+    "data": [{ "userId": 1 }, { "userId": 2 }, { "userId": 3 }]
+  },
+  {
+    "name": "createUser",
+    "method": "post",
+    "path": "/users",
+    "data": [{ "body": { "name": "Jane Generic", "job": "Very Generic Manager" } }, { "body": { "name": "Gerald Regularguy", "job": "Very Regular Coder" } }]
+  }
+]

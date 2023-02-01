@@ -1,0 +1,13 @@
+{
+  "service": {
+    "reqres": "https://reqres.in"
+  },
+  "baseEndpoint": "/api",
+  "headers": {
+    "accept": "application/json",
+    "user-agent": "api-test"
+  },
+  "testplan": "testplan.json",
+  "debug": true,
+  "plugins": []
+}
